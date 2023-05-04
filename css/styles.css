@@ -1,14 +1,19 @@
+/*последовательность действий:
+1. Подключить шрифты
+2. Подключить modern-normalize
+3. Сбросить настройки*/
+
+/*-------------------------сбрасываю все настройки-------------------------*/
 .list {
     list-style: none;
 }
 .link {
     text-decoration: none;
 }
-
 button {
     cursor: pointer;
 }
-/*прописав для лого*/
+/*-------------------------HEADER-------------------------*/
 .web-text {
     font-family: 'Raleway';
     sans-serif;
@@ -33,17 +38,6 @@ button {
     color: #F4F4FD;
 }
 
-.footer-text {
-    font-family: 'Roboto';
-    sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-}
 .web-text {
     color: #4D5AE5;
 }
@@ -71,6 +65,7 @@ button {
     /* Цвет, который нужен при наведении */
 }
 
+/*-------------------------MAIN-------------------------*/
 .menu-btn-item {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -80,7 +75,6 @@ button {
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
-
 
 /*шрифты app-ideas*/
 .ideas-title{
@@ -143,7 +137,7 @@ font-family: 'Roboto';
         letter-spacing: 0.02em;
         color: #434455;
 }
-/*шрифты для footer*/
+/*-------------------------FOOTER-------------------------*/
 .web-text{
     font-family: 'Raleway'; sans-serif;
         font-style: normal;
