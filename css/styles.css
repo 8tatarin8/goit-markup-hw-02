@@ -44,6 +44,35 @@ ol {
 img {
     display: block;
 }
-/*прописуємо загальні стилі*/
 
-/*==================HEADER==================*/
+/*прописуємо загальні стилі*/
+.body {}
+
+.section {}
+
+/*
+====================================
+HEADER
+====================================
+*/
+.main-header {}
+
+.navigation {}
+
+.webstudio-text {}
+
+.menu-list {}
+
+.menu-item {}
+
+.menu-link {}
+
+.page-adress {}
+
+.header-contacts {}
+
+.header-contacts-item {}
+
+.contact-mail {}
+
+.contact-tel {}
