@@ -12,6 +12,12 @@
 /*підключив шрифти з google-fonts - виконано*/
 /*скидання дефолтних налаштувань браузера*/
 /* скинув маркери */
+
+/*
+====================================
+----------ДЕФОЛТНІ СКИДАННЯ---------
+====================================
+*/
 .list {
     list-style: none;
 }
@@ -45,7 +51,11 @@ img {
     display: block;
 }
 
-/*прописуємо загальні стилі*/
+/*
+====================================
+ЗАГАЛЬНІ СТИЛІ: INDEX/PORTFOLIO
+====================================
+*/
 .logo-webstudio-text {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -86,7 +96,11 @@ img {
 .header-contacts :focus {
     color: #404BBF;
 }
-
+/*
+====================================
+----------------END-----------------
+====================================
+*/
 /*
 ====================================
 BUTTONS STYLES
@@ -136,17 +150,17 @@ BUTTONS STYLES
     background-color: #404BBF;
     color: #FFFFFF;
 }
-
-
 /*
 ====================================
-----------------HEADER--------------
+----------------END-----------------
 ====================================
 */
 
-.header-navigation {}
-
-.header-menu-list {}
+/*
+====================================
+HEADER/INDEX
+====================================
+*/
 
 .header-menu-item {
     font-style: normal;
@@ -168,18 +182,14 @@ BUTTONS STYLES
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.header-contacts {}
-
-.header-contacts-item {}
-
-.header-contact-mail {}
-
-.header-contact-tel {}
-
 /*
 ====================================
-----------------MAIN----------------
+----------------END-----------------
+====================================
+*/
+/*
+====================================
+MAIN/INDEX
 ====================================
 */
 
@@ -195,13 +205,6 @@ BUTTONS STYLES
     letter-spacing: 0.02em;
     color: #FFFFFF
 }
-
-
-.section-our-goals {}
-
-.section-our-goals-list {}
-
-.section-our-goals-item {}
 
 .section-our-goals-title {
     font-style: normal;
@@ -220,32 +223,16 @@ BUTTONS STYLES
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-.section-proposition {}
-
-.section-proposition-title {}
-
-.section-proposition-list {}
-
-.section-proposition-item {}
-
-.section-proposition-img {}
-
-.section-team {}
-
-.section-team-first-title {}
-
-.section-team-list {}
-
-.section-team-item {}
-
-.section-team-img {}
-
-.section-team-title-name {}
-
-.section-team-category {}
-
-/*шрифти для PORTFOLIO*/
+/*
+====================================
+----------------END-----------------
+====================================
+*/
+/*
+==========================================
+PORTFOLIO/SECTION
+==========================================
+*/
 .title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -265,3 +252,8 @@ BUTTONS STYLES
     letter-spacing: 0.02em;
     color: #434455;
 }
+/*
+====================================
+----------------END-----------------
+====================================
+*/
