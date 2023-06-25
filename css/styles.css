@@ -243,9 +243,11 @@ PORTFOLIO/SECTION
 */
 
 
+
+
 /*
 |==========================================|
-|HEADER|
+|HEADER/загальні для INDEX/PORTFOLIO|
 |==========================================|
 */
 .main-header {}
@@ -294,7 +296,7 @@ PORTFOLIO/SECTION
 
 /*
 |==========================================|
-|MAIN/SECTION HERO|
+|MAIN/SECTION HERO|INDEX
 |==========================================|
 */
 .section-hero-servise {}
@@ -305,7 +307,7 @@ PORTFOLIO/SECTION
 
 /*
 |==========================================|
-|MAIN/SECTION OUR GOALS|
+|MAIN/SECTION OUR GOALS|INDEX
 |==========================================|
 */
 .section-our-goals {}
@@ -320,7 +322,7 @@ PORTFOLIO/SECTION
 
 /*
 |==========================================|
-|MAIN/SECTION PROPOSITION|
+|MAIN/SECTION PROPOSITION|INDEX
 |==========================================|
 */
 .section-proposition {}
@@ -335,7 +337,7 @@ PORTFOLIO/SECTION
 
 /*
 |==========================================|
-|MAIN/SECTION OUR TEAM|
+|MAIN/SECTION OUR TEAM|INDEX
 |==========================================|
 */
 .section-team {}
@@ -354,7 +356,84 @@ PORTFOLIO/SECTION
 
 /*
 |==========================================|
-|FOOTER|
+|MAIN/SECTION HERO|PORTFOLIO
+|==========================================|
+*/
+.hero-btn {}
+
+/*
+|==========================================|
+|MAIN/MENU-BTN|PORTFOLIO
+|==========================================|
+*/
+.menu-btn {}
+
+.menu-btn-item {}
+
+.menu-btn-all {}
+
+.filter-button {}
+
+.menu-btn-web {}
+
+.menu-btn-app {}
+
+.menu-btn-design {}
+
+.menu-btn-marketing {}
+
+/*
+|==========================================|
+|MAIN/APP-IDEAS|PORTFOLIO
+|==========================================|
+*/
+.app-ideas {}
+
+.ideas-item {}
+
+.ideas-img {}
+
+.ideas-title {}
+
+.title {}
+
+.ideas-category {}
+
+.category {}
+
+/*
+|==========================================|
+|MAIN/SERVICE|PORTFOLIO
+|==========================================|
+*/
+.service {}
+
+.service-item {}
+
+.service-img {}
+
+.servise-title {}
+
+.servise-category {}
+
+/*
+|==========================================|
+|MAIN/PORTFOLIO-SECTION|PORTFOLIO
+|==========================================|
+*/
+.potfolio-section {}
+
+.portfolio-secion-item {}
+
+.portfolio-section-img {}
+
+.portfolio-section-title {}
+
+.portfolio-section-category {}
+
+/*
+|==========================================|
+|FOOTER/загальні для INDEX/PORTFOLIO|
 |==========================================|
 */
 .footer {}
