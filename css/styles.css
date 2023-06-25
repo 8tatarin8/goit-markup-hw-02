@@ -66,7 +66,9 @@ img {
     text-transform: uppercase;
     color: #2E2F42;
 }
-
+.hdr-text-color {
+    color: #2E2F42;
+}
 .web-text {
     color: #4D5AE5;
 }
@@ -74,12 +76,6 @@ img {
 .body {
     font-family: 'Roboto', sans-serif
 }
-
-.main-header {}
-
-.main {}
-
-.section {}
 
 .footer {
     background-color: #2E2F42;
@@ -89,11 +85,22 @@ img {
     color: #F4F4FD;
 }
 
-.footer-text {}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
 
-/*інтерактивні посилання*/
+/*інтерактивні посилання в спокійному стані*/
+.header-contacts-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
-.header-contacts :focus {
+.header-contacts-item :focus {
     color: #404BBF;
 }
 /*
@@ -168,20 +175,8 @@ HEADER/INDEX
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
 }
 
-.header-menu-link {}
-
-/*інтерактивні посилання*/
-.header-contacts-item {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
 /*
 ====================================
 ----------------END-----------------
@@ -216,8 +211,7 @@ MAIN/INDEX
 }
 
 .section-our-goals-text {
-    font-style: normal;
-    font-weight: 400;
+ 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -244,9 +238,7 @@ PORTFOLIO/SECTION
 }
 
 .category {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
