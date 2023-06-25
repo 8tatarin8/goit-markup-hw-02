@@ -47,16 +47,30 @@ img {
 |-ЗАГАЛЬНІ СТИЛІ:STYLES INDEX/PORTFOLIO-|
 |=======================================|
 */
-body {
+.body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+/*загальний клас для заголовків H2 на INDEX*/
+.title-index {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+/*загальний клас для заголовків H2,H3 INDEX/PORTFOLIO*/
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 /*COLORS/КОЛЬОРИ*/
-
-/*END*/
 
 /*інтерактивні посилання в спокійному стані*/
 .header-contacts-item {}
@@ -202,6 +216,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF
 }
 
@@ -304,16 +319,6 @@ body {
 .ideas-img {}
 
 .ideas-title {}
-
-.title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
 
 .ideas-category {}
 
