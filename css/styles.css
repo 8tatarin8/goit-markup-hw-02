@@ -62,40 +62,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
-/*logo styles START*/
-.logo-webstudio-text {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.web-text {
-    color: #4D5AE5;
-}
-.studio-dark {
-    color: #2E2F42;
-}
-.studio-light {
-    color: #F4F4FD;
-}
-/*logo styles END*/
-
 /*COLORS/КОЛЬОРИ*/
 
-.hdr-text-color {
-    color: #2E2F42;
-}
-
-.footer {
-    background-color: #2E2F42;
-}
-.footer-text {
-    color: #F4F4FD;
-}
 /*END*/
 
 /*інтерактивні посилання в спокійному стані*/
@@ -146,13 +114,11 @@ BUTTONS STYLES
     letter-spacing: 0.04em;
 
 }
-
 .filter-button {
     background-color: #F4F4FD;
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-
 }
 /*BUTTON/ACTIVE/PORTFOLIO*/
 .filter-button:hover,
@@ -160,90 +126,11 @@ BUTTONS STYLES
     background-color: #404BBF;
     color: #FFFFFF;
 }
-/*
-====================================
-----------------END-----------------
-====================================
-*/
-
-/*
-====================================
-INDEX/HEADER
-====================================
-*/
-
-.header-menu-item {
-    font-style: normal;
-    font-weight: 500;
-}
 
 /*
 ====================================
 ----------------END-----------------
 ====================================
-*/
-/*
-====================================
-INDEX/MAIN
-====================================
-*/
-
-.section-hero-servise {
-    background-color: #2E2F42;
-}
-
-.section-hero-solutions {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #FFFFFF
-}
-
-.section-our-goals-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-
-.section-our-goals-text {
-    color: #434455;
-}
-/*
-====================================
-----------------END-----------------
-====================================
-*/
-/*
-==========================================
-PORTFOLIO/SECTION
-==========================================
-*/
-/*COLORS/КОЛЬОРИ*/
-.category {
-    color: #434455;
-}
-.title {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-/*
-====================================
-----------------END-----------------
-====================================
-*/
-
-
-
 
 /*
 |==========================================|
@@ -258,13 +145,24 @@ PORTFOLIO/SECTION
 */
 .header-navigation {}
 
-.logo-webstudio-text {}
+.logo-webstudio-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
 .link {}
 
-.web-text {}
-
-.studio-dark {}
+.web-text {
+    color: #4D5AE5;
+}
+.studio-dark {
+    color: #2E2F42;
+}
 /*
 |==========================================|
 |HEADER/головна навігація/перехід|
@@ -273,11 +171,16 @@ PORTFOLIO/SECTION
 
 .header-menu-list {}
 
-.header-menu-item {}
+.header-menu-item {
+    font-style: normal;
+    font-weight: 500;
+}
 
 .header-menu-link {}
 
-.hdr-text-color {}
+.hdr-text-color {
+    color: #2E2F42;
+}
 /*
 |==========================================|
 |HEADER/ADRESS|
@@ -299,9 +202,17 @@ PORTFOLIO/SECTION
 |MAIN/SECTION HERO|INDEX
 |==========================================|
 */
-.section-hero-servise {}
-
-.section-hero-solutions {}
+.section-hero-servise {
+    background-color: #2E2F42;
+}
+.section-hero-solutions {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
 
 .section-hero-button-servise {}
 
@@ -316,9 +227,17 @@ PORTFOLIO/SECTION
 
 .section-our-goals-item {}
 
-.section-our-goals-title {}
-
-.section-our-goals-text {}
+.section-our-goals-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.section-our-goals-text {
+    color: #434455;
+}
 
 /*
 |==========================================|
@@ -395,12 +314,21 @@ PORTFOLIO/SECTION
 
 .ideas-title {}
 
-.title {}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
 .ideas-category {}
 
-.category {}
-
+.category {
+    color: #434455;
+}
 /*
 |==========================================|
 |MAIN/SERVICE|PORTFOLIO
@@ -436,7 +364,9 @@ PORTFOLIO/SECTION
 |FOOTER/загальні для INDEX/PORTFOLIO|
 |==========================================|
 */
-.footer {}
+.footer {
+    background-color: #2E2F42;
+}
 
 .logo-webstudio-text {}
 
@@ -444,6 +374,9 @@ PORTFOLIO/SECTION
 
 .web-text {}
 
-.studio-light {}
-
-.footer-text {}
+.studio-light {
+    color: #F4F4FD;
+}
+.footer-text {
+    color: #F4F4FD;
+}
