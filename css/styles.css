@@ -52,7 +52,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-cl);
 }
 /*загальний клас для заголовків H2 на INDEX*/
 .title-index {
@@ -68,17 +68,32 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-cl);
 }
 /*COLORS/КОЛЬОРИ*/
+:root {
+    --main-cl: #2E2F42;
+    --header-contacts-cl: #404BBF;
+    --header-hero-button-bg: #4D5AE5;
+    --header-hero-buttom-cl: #FFFFFF;
+    --hero-button-active: #FFFFFF;
+    --hero-button-active-bg:#404BBF;
+    --filter-button-cl: #4D5AE5;
+    --filter-button-bg: #F4F4FD;
+    --filter-button-border: #E7E9FC;
+    --our-goals-text: #434455;
 
+
+
+
+}
 /*інтерактивні посилання в спокійному стані*/
 .header-contacts-item {}
 
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
 .header-contacts-item :focus {
-    color: #404BBF;
+    color: var(--header-contacts-cl);
 }
 /*
 |=======================================|
@@ -98,15 +113,15 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--header-hero-button-bg);
+    color: var(--header-hero-buttom-cl);
 
 }
 /*BUTTON/ACTIVE/INDEX*/
 .section-hero-button-servise:hover,
 .section-hero-button-servise:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--hero-button-active-bg);
+    color: var(--hero-button-active);
     border-radius: 4px;
 }
 
@@ -120,16 +135,16 @@ img {
 
 }
 .filter-button {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
-    border: 1px solid #E7E9FC;
+    background-color: var(--filter-button-bg);
+    color: var(--filter-button-cl);
+    border: 1px solid var(--filter-button-border);
     border-radius: 4px;
 }
 /*BUTTON/ACTIVE/PORTFOLIO*/
 .filter-button:hover,
 .filter-button:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--hero-button-active-bg);
+    color: var(--header-hero-buttom-cl);
 }
 /*
 |========================================|
@@ -163,10 +178,10 @@ img {
 .link {}
 
 .web-text {
-    color: #4D5AE5;
+    color: var(--filter-button-cl);
 }
 .studio-dark {
-    color: #2E2F42;
+    color: var(--main-cl);
 }
 /*
 |==========================================|
@@ -184,7 +199,7 @@ img {
 .header-menu-link {}
 
 .hdr-text-color {
-    color: #2E2F42;
+    color: var(--main-cl);
 }
 /*
 |==========================================|
@@ -208,7 +223,7 @@ img {
 |==========================================|
 */
 .section-hero-servise {
-    background-color: #2E2F42;
+    background-color: var(--main-cl);
 }
 .section-hero-solutions {
     font-style: normal;
@@ -217,7 +232,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF
+    color: var(--hero-button-active);
 }
 
 .section-hero-button-servise {}
@@ -239,10 +254,10 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--main-cl);
 }
 .section-our-goals-text {
-    color: #434455;
+    color: var(--our-goals-text);
 }
 
 /*
@@ -323,7 +338,7 @@ img {
 .ideas-category {}
 
 .category {
-    color: #434455;
+    color: var(--our-goals-text);
 }
 /*
 |==========================================|
@@ -361,7 +376,7 @@ img {
 |==========================================|
 */
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--main-cl);
 }
 
 .logo-webstudio-text {}
@@ -371,8 +386,8 @@ img {
 .web-text {}
 
 .studio-light {
-    color: #F4F4FD;
+    color: var(--filter-button-bg);
 }
 .footer-text {
-    color: #F4F4FD;
+    color: var(--filter-button-bg);
 }
