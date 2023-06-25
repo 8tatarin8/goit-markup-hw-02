@@ -46,73 +46,222 @@ img {
 }
 
 /*прописуємо загальні стилі*/
-.body {}
+.logo-webstudio-text {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.web-text {
+    color: #4D5AE5;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif
+}
+
+.main-header {}
+
+.main {}
 
 .section {}
 
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-studio-text {
+    color: #F4F4FD;
+}
+
+.footer-text {}
+
+/*інтерактивні посилання*/
+.header-contacts-item :hover,
+.header-contacts :focus {
+    color: #404BBF;
+}
+
 /*
 ====================================
-HEADER
+BUTTONS STYLES
 ====================================
 */
-.main-header {}
-
-.navigation {}
-
-.webstudio-text {}
-
-.menu-list {}
-
-.menu-item {
-    font-family: 'Roboto', sans-serif;
+/*---------------INDEX---------------*/
+.section-hero-button-servise {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+
+}
+
+/*BUTTON/ACTIVE/INDEX*/
+.section-hero-button-servise:hover,
+.section-hero-button-servise:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+/*---------------PORTFOLIO---------------*/
+.menu-btn-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+
+.filter-button {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+}
+
+/*BUTTON/ACTIVE/PORTFOLIO*/
+.filter-button:hover,
+.filter-button:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+
+/*
+====================================
+----------------HEADER--------------
+====================================
+*/
+
+.header-navigation {}
+
+.header-menu-list {}
+
+.header-menu-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.menu-link {}
+.header-menu-link {}
 
-.page-adress {}
-
-.header-contacts {}
-
-.header-contacts-item {}
-
-.contact-mail {}
-
-.contact-tel {}
-
-/*
-====================================
-HEADER ADRESS
-====================================
-*/
-.page-adress {}
+/*інтерактивні посилання*/
+.header-contacts-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 .header-contacts {}
 
 .header-contacts-item {}
 
-.contact-mail {}
+.header-contact-mail {}
 
-.contact-tel {}
-
-/*
-====================================
-СЕКЦІЯ ХІРО
-====================================
-*/
-.hero-servise {}
-
-.hero-solutions {}
-
-.hero-button-servise {}
+.header-contact-tel {}
 
 /*
 ====================================
-СЕКЦІЯ 2
+----------------MAIN----------------
 ====================================
 */
+
+.section-hero-servise {
+    background-color: #2E2F42;
+}
+
+.section-hero-solutions {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF
+}
+
+
+.section-our-goals {}
+
+.section-our-goals-list {}
+
+.section-our-goals-item {}
+
+.section-our-goals-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-our-goals-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.section-proposition {}
+
+.section-proposition-title {}
+
+.section-proposition-list {}
+
+.section-proposition-item {}
+
+.section-proposition-img {}
+
+.section-team {}
+
+.section-team-first-title {}
+
+.section-team-list {}
+
+.section-team-item {}
+
+.section-team-img {}
+
+.section-team-title-name {}
+
+.section-team-category {}
+
+/*шрифти для PORTFOLIO*/
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.category {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
