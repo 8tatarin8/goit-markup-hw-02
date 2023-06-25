@@ -15,7 +15,7 @@
 
 /*
 ====================================
-----------ДЕФОЛТНІ СКИДАННЯ---------
+-------ДЕФОЛТНІ СКИДАННЯ/RESET------
 ====================================
 */
 .list {
@@ -154,7 +154,6 @@ BUTTONS STYLES
     border-radius: 4px;
 
 }
-
 /*BUTTON/ACTIVE/PORTFOLIO*/
 .filter-button:hover,
 .filter-button:focus {
@@ -242,3 +241,130 @@ PORTFOLIO/SECTION
 ----------------END-----------------
 ====================================
 */
+
+
+/*
+|==========================================|
+|HEADER|
+|==========================================|
+*/
+.main-header {}
+/*
+|==========================================|
+|NAV|
+|==========================================|
+*/
+.header-navigation {}
+
+.logo-webstudio-text {}
+
+.link {}
+
+.web-text {}
+
+.studio-dark {}
+/*
+|==========================================|
+|HEADER/головна навігація/перехід|
+|==========================================|
+*/
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {}
+
+.hdr-text-color {}
+/*
+|==========================================|
+|HEADER/ADRESS|
+|==========================================|
+*/
+
+.header-page-adress {}
+
+.header-contacts {}
+
+.header-contacts-item {}
+
+.header-contact-mail {}
+
+.header-contact-tel {}
+
+/*
+|==========================================|
+|MAIN/SECTION HERO|
+|==========================================|
+*/
+.section-hero-servise {}
+
+.section-hero-solutions {}
+
+.section-hero-button-servise {}
+
+/*
+|==========================================|
+|MAIN/SECTION OUR GOALS|
+|==========================================|
+*/
+.section-our-goals {}
+
+.section-our-goals-list {}
+
+.section-our-goals-item {}
+
+.section-our-goals-title {}
+
+.section-our-goals-text {}
+
+/*
+|==========================================|
+|MAIN/SECTION PROPOSITION|
+|==========================================|
+*/
+.section-proposition {}
+
+.section-proposition-title {}
+
+.section-proposition-list {}
+
+.section-proposition-item {}
+
+.section-proposition-img {}
+
+/*
+|==========================================|
+|MAIN/SECTION OUR TEAM|
+|==========================================|
+*/
+.section-team {}
+
+.section-team-first-title {}
+
+.section-team-list {}
+
+.section-team-item {}
+
+.section-team-img {}
+
+.section-team-title-name {}
+
+.section-team-category {}
+
+/*
+|==========================================|
+|FOOTER|
+|==========================================|
+*/
+.footer {}
+
+.logo-webstudio-text {}
+
+.link {}
+
+.web-text {}
+
+.studio-light {}
+
+.footer-text {}
