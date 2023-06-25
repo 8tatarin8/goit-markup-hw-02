@@ -53,9 +53,17 @@ img {
 
 /*
 ====================================
-ЗАГАЛЬНІ СТИЛІ: INDEX/PORTFOLIO
+ЗАГАЛЬНІ СТИЛІ:STYLES INDEX/PORTFOLIO
 ====================================
 */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/*logo styles START*/
 .logo-webstudio-text {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -64,40 +72,35 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
-}
-
-.body {
-    font-family: 'Roboto', sans-serif
-}
-/*КОЛЬОРИ*/
-.hdr-text-color {
-    color: #2E2F42;
 }
 .web-text {
     color: #4D5AE5;
 }
+.studio-dark {
+    color: #2E2F42;
+}
+.studio-light {
+    color: #F4F4FD;
+}
+/*logo styles END*/
+
+/*COLORS/КОЛЬОРИ*/
+
+.hdr-text-color {
+    color: #2E2F42;
+}
+
 .footer {
     background-color: #2E2F42;
 }
-.footer-studio-text {
+.footer-text {
     color: #F4F4FD;
 }
 /*END*/
 
-.footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
-
 /*інтерактивні посилання в спокійному стані*/
-.header-contacts-item {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+.header-contacts-item {}
+
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
 .header-contacts-item :focus {
@@ -105,7 +108,7 @@ img {
 }
 /*
 ====================================
-----------------END-----------------
+ЗАГАЛЬНІ СТИЛІ--END-----------------
 ====================================
 */
 
@@ -173,9 +176,6 @@ INDEX/HEADER
 .header-menu-item {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 /*
@@ -212,10 +212,6 @@ INDEX/MAIN
 }
 
 .section-our-goals-text {
- 
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 /*
@@ -228,6 +224,10 @@ INDEX/MAIN
 PORTFOLIO/SECTION
 ==========================================
 */
+/*COLORS/КОЛЬОРИ*/
+.category {
+    color: #434455;
+}
 .title {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -236,14 +236,6 @@ PORTFOLIO/SECTION
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-}
-
-.category {
-  
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
 }
 /*
 ====================================
