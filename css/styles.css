@@ -47,8 +47,35 @@ img {
 |-ЗАГАЛЬНІ СТИЛІ:STYLES INDEX/PORTFOLIO-|
 |=======================================|
 */
+/*
+|------------COLORS/FONTS/OTHER----------|
+|----прописати зрозумілі значення для кольрів:----|
+|- CL - для тексту;-------------------------------|
+|- H - для заголовків;----------------------------|
+|- BG - заливка;----------------------------------|
+*/
+:root {
+    /*colors*/
+    --main-cl: #2E2F42;
+    --header-contacts-cl: #404BBF;
+    --header-hero-button-bg: #4D5AE5;
+    --header-hero-buttom-cl: #FFFFFF;
+    --hero-button-active: #FFFFFF;
+    --hero-button-active-bg: #404BBF;
+    --filter-button-cl: #4D5AE5;
+    --filter-button-bg: #F4F4FD;
+    --filter-button-border: #E7E9FC;
+    --our-goals-text: #434455;
+
+    /*fonts*/
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /*other*/
+
+}
 .body {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -70,33 +97,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--main-cl);
 }
-/*
-|------------COLORS/FONTS/OTHER----------|
-|----прописати зрозумілі значення для кольрів:----|
-|- CL - для тексту;-------------------------------|
-|- H - для заголовків;----------------------------|
-|- BG - заливка;----------------------------------|
-*/
-:root {
-    /*colors*/
-    --main-cl: #2E2F42;
-    --header-contacts-cl: #404BBF;
-    --header-hero-button-bg: #4D5AE5;
-    --header-hero-buttom-cl: #FFFFFF;
-    --hero-button-active: #FFFFFF;
-    --hero-button-active-bg:#404BBF;
-    --filter-button-cl: #4D5AE5;
-    --filter-button-bg: #F4F4FD;
-    --filter-button-border: #E7E9FC;
-    --our-goals-text: #434455;
 
-    /*fonts*/
-    --main-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-
-    /*other*/
-
-}
 /*інтерактивні посилання в спокійному стані*/
 .header-contacts-item {}
 
@@ -176,7 +177,7 @@ img {
 .header-navigation {}
 
 .logo-webstudio-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
