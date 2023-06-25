@@ -66,24 +66,24 @@ img {
     text-transform: uppercase;
     color: #2E2F42;
 }
+
+.body {
+    font-family: 'Roboto', sans-serif
+}
+/*КОЛЬОРИ*/
 .hdr-text-color {
     color: #2E2F42;
 }
 .web-text {
     color: #4D5AE5;
 }
-
-.body {
-    font-family: 'Roboto', sans-serif
-}
-
 .footer {
     background-color: #2E2F42;
 }
-
 .footer-studio-text {
     color: #F4F4FD;
 }
+/*END*/
 
 .footer-text {
     font-size: 16px;
@@ -108,6 +108,7 @@ img {
 ----------------END-----------------
 ====================================
 */
+
 /*
 ====================================
 BUTTONS STYLES
@@ -165,7 +166,7 @@ BUTTONS STYLES
 
 /*
 ====================================
-HEADER/INDEX
+INDEX/HEADER
 ====================================
 */
 
@@ -184,7 +185,7 @@ HEADER/INDEX
 */
 /*
 ====================================
-MAIN/INDEX
+INDEX/MAIN
 ====================================
 */
 
