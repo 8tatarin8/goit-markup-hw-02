@@ -85,7 +85,7 @@ img {
 body {
     font-family: 'Roboto', sans-serif;
     color: #2E2F42;
-    background-color: #FFFFFF;
+    background: #FFF;
 }
 /*загальний клас для заголовків H2 на INDEX*/
 .title-index {
