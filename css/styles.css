@@ -14,9 +14,9 @@
 /* скинув маркери */
 
 /*
-|====================================|
-|------ДЕФОЛТНІ СКИДАННЯ/RESET|------|
-|====================================|
+|=====================================|
+|------|ДЕФОЛТНІ СКИДАННЯ/RESET|------|
+|=====================================|
 */
 /*скинув маркери*/
 .list {
@@ -43,43 +43,49 @@ img {
     display: block;
 }
 /*
-|=======================================|
-|-ЗАГАЛЬНІ СТИЛІ:STYLES INDEX/PORTFOLIO-|
-|=======================================|
+|=========================================|
+|-|ЗАГАЛЬНІ СТИЛІ/STYLES INDEX/PORTFOLIO|-|
+|=========================================|
 */
 /*
 |------------COLORS/FONTS/OTHER----------|
 |----прописати зрозумілі значення для кольрів:----|
-|- CL - для тексту;-------------------------------|
-|- H - для заголовків;----------------------------|
-|- BG - заливка;----------------------------------|
+|- CL - колір для тексту;-------------------------------|
+|- H - колір для заголовків;----------------------------|
+|- P - колір для абзаців;----------------------------|
+|- BG - колір для фону;----------------------------------|
 */
 :root {
     /*colors*/
-    --main-cl: #2E2F42;
-    --header-contacts-cl: #404BBF;
-    --header-hero-button-bg: #4D5AE5;
-    --header-hero-buttom-cl: #FFFFFF;
-    --hero-button-active: #FFFFFF;
-    --hero-button-active-bg: #404BBF;
-    --filter-button-cl: #4D5AE5;
-    --filter-button-bg: #F4F4FD;
-    --filter-button-border: #E7E9FC;
-    --our-goals-text: #434455;
+    --color-web: #4D5AE5;
+    --color-studio-header: #2E2F42;
+    --color-studio-footer: #F4F4FD;
+    --title-h-cl: #2E2F42;
+    --title-p-cl: #434455;
+    --header-navigation-a-norm-cl: #2E2F42;
+    --header-adress-a-norm-cl: #434455;
+    --header-a-active-cl: #404BBF;
+    --section-hero-h-cl: #FFF;
+    --section-hero-bg: #2E2F42;
+    --section-hero-btn-cl: #FFF;
+    --section-hero-btn-bg: #4D5AE5;
+    --section-hero-btn-active-bg: #404BBF;
+    --portfolio-filter-btn-cl: #4D5AE5;
+    --portfolio-filter-btn-active-cl:#FFF;
+    --portfolio-filter-btn-norm-bg: #F4F4FD;
+    --portfolio-filter-btn-active-bg: #404BBF;
 
     /*fonts*/
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 
     /*other*/
-
 }
-.body {
+
+body {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-cl);
+    color: #2E2F42;
+    background-color: #FFFFFF;
 }
 /*загальний клас для заголовків H2 на INDEX*/
 .title-index {
@@ -95,7 +101,7 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-cl);
+    color: #2E2F42;
 }
 
 /*інтерактивні посилання в спокійному стані*/
@@ -104,7 +110,7 @@ img {
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
 .header-contacts-item :focus {
-    color: var(--header-contacts-cl);
+    color: #404BBF;
 }
 /*
 |=======================================|
@@ -124,15 +130,15 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: var(--header-hero-button-bg);
-    color: var(--header-hero-buttom-cl);
+    background-color: #4D5AE5;
+    color: #FFFFFF;
 
 }
 /*BUTTON/ACTIVE/INDEX*/
 .section-hero-button-servise:hover,
 .section-hero-button-servise:focus {
-    background-color: var(--hero-button-active-bg);
-    color: var(--hero-button-active);
+    background-color: #404BBF;
+    color: #FFFFFF;
     border-radius: 4px;
 }
 
@@ -146,16 +152,16 @@ img {
 
 }
 .filter-button {
-    background-color: var(--filter-button-bg);
-    color: var(--filter-button-cl);
-    border: 1px solid var(--filter-button-border);
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 /*BUTTON/ACTIVE/PORTFOLIO*/
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--hero-button-active-bg);
-    color: var(--header-hero-buttom-cl);
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 /*
 |========================================|
@@ -184,16 +190,12 @@ img {
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--color-web);
+}
+.header-logo-link {
+    color: var(--color-studio-header);
 }
 
-.link {}
-
-.web-text {
-    color: var(--filter-button-cl);
-}
-.studio-dark {
-    color: var(--main-cl);
-}
 /*
 |==========================================|
 |-----HEADER/головна навігація/перехід-----|
@@ -210,7 +212,7 @@ img {
 .header-menu-link {}
 
 .hdr-text-color {
-    color: var(--main-cl);
+    color: #2E2F42;
 }
 /*
 |==========================================|
@@ -234,7 +236,7 @@ img {
 |==========================================|
 */
 .section-hero-servise {
-    background-color: var(--main-cl);
+    background-color: #2E2F42;
 }
 .section-hero-solutions {
     font-style: normal;
@@ -243,7 +245,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: var(--hero-button-active);
+    color: #FFFFFF;
 }
 
 .section-hero-button-servise {}
@@ -265,10 +267,10 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-cl);
+    color: 2E2F42;
 }
 .section-our-goals-text {
-    color: var(--our-goals-text);
+    color: #434455;
 }
 
 /*
@@ -349,7 +351,7 @@ img {
 .ideas-category {}
 
 .category {
-    color: var(--our-goals-text);
+    color: #434455;
 }
 /*
 |==========================================|
@@ -387,18 +389,15 @@ img {
 |==========================================|
 */
 .footer {
-    background-color: var(--main-cl);
+    background-color: #2E2F42;
 }
 
-.logo-webstudio-text {}
-
-.link {}
-
-.web-text {}
-
-.studio-light {
-    color: var(--filter-button-bg);
+.logo-webstudio-text {
+    color: var(--color-web);
+}
+.header-logo-link{
+    color: var(--color-studio-footer);
 }
 .footer-text {
-    color: var(--filter-button-bg);
+    color: #F4F4FD;
 }
