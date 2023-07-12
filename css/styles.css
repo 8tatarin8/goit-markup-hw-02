@@ -82,11 +82,39 @@ img {
     /*other*/
 }
 
-body {
+.body-content {
     font-family: 'Roboto', sans-serif;
-    color: #2E2F42;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
     background: #FFF;
 }
+
+/*
+|==========================================|
+|FOOTER/загальні для INDEX/PORTFOLIO|
+|==========================================|
+*/
+.footer {
+    background-color: #2E2F42;
+}
+
+.logo-webstudio-text {
+    color: var(--color-web);
+}
+
+.header-logo-link {
+    color: var(--color-studio-footer);
+}
+
+.footer-text {
+    color: var(--color-studio-footer);
+}
+
+
 /*загальний клас для заголовків H2 на INDEX*/
 .title-index {
     font-weight: 700;
@@ -94,6 +122,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: var(--title-h-cl);
 }
 /*загальний клас для заголовків H2,H3 INDEX/PORTFOLIO*/
 .title {
@@ -101,7 +130,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--title-h-cl);
 }
 
 /*інтерактивні посилання в спокійному стані*/
@@ -112,11 +141,6 @@ body {
 .header-contacts-item :focus {
     color: #404BBF;
 }
-/*
-|=======================================|
-|----------ЗАГАЛЬНІ СТИЛІ:END-----------|
-|=======================================|
-*/
 
 /*
 |========================================|
@@ -229,14 +253,20 @@ body {
 .header-contact-mail {}
 
 .header-contact-tel {}
+/*
+|=======================================|
+|----------ЗАГАЛЬНІ СТИЛІ:END-----------|
+|=======================================|
+*/
 
 /*
 |==========================================|
-|MAIN/SECTION HERO|INDEX
+|---------------|MAIN|INDEX|---------------|
+|---------------|SECTION HERO|-------------|
 |==========================================|
 */
 .section-hero-servise {
-    background-color: #2E2F42;
+    background: #2E2F42;
 }
 .section-hero-solutions {
     font-style: normal;
@@ -245,14 +275,13 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF;
+    color: #FFF;
 }
-
-.section-hero-button-servise {}
 
 /*
 |==========================================|
-|MAIN/SECTION OUR GOALS|INDEX
+|---------------|MAIN|INDEX|---------------|
+|---------------|SECTION-OUR-GOALS|--------|
 |==========================================|
 */
 .section-our-goals {}
@@ -267,15 +296,12 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: 2E2F42;
+    color: var(--title-h-cl);
 }
-.section-our-goals-text {
-    color: #434455;
-}
-
 /*
 |==========================================|
-|MAIN/SECTION PROPOSITION|INDEX
+|-------------|MAIN|INDEX|-----------------|
+|-------------|SECTION PROPOSITION|--------|
 |==========================================|
 */
 .section-proposition {}
@@ -290,7 +316,8 @@ body {
 
 /*
 |==========================================|
-|MAIN/SECTION OUR TEAM|INDEX
+|-------------|MAIN|INDEX|-----------------|
+|-------------|SECTION OUR TEAM|-----------|
 |==========================================|
 */
 .section-team {}
@@ -305,40 +332,23 @@ body {
 
 .section-team-title-name {}
 
-.section-team-category {}
+.section-team-category {
+    text-align: center;
+}
 
 /*
-|==========================================|
-|MAIN/SECTION HERO|PORTFOLIO
-|==========================================|
+|============================================|
+|-------------|MAIN|PORTFOLIO|---------------|
+|-------------|SECTION HERO|-----------------|
+|============================================|
 */
 .hero-btn {}
 
 /*
-|==========================================|
-|MAIN/MENU-BTN|PORTFOLIO
-|==========================================|
-*/
-.menu-btn {}
-
-.menu-btn-item {}
-
-.menu-btn-all {}
-
-.filter-button {}
-
-.menu-btn-web {}
-
-.menu-btn-app {}
-
-.menu-btn-design {}
-
-.menu-btn-marketing {}
-
-/*
-|==========================================|
-|MAIN/APP-IDEAS|PORTFOLIO
-|==========================================|
+|============================================|
+|-------------|MAIN|PORTFOLIO|---------------|
+|-------------|APP-IDEAS|--------------------|
+|============================================|
 */
 .app-ideas {}
 
@@ -383,21 +393,3 @@ body {
 
 .portfolio-section-category {}
 
-/*
-|==========================================|
-|FOOTER/загальні для INDEX/PORTFOLIO|
-|==========================================|
-*/
-.footer {
-    background-color: #2E2F42;
-}
-
-.logo-webstudio-text {
-    color: var(--color-web);
-}
-.header-logo-link{
-    color: var(--color-studio-footer);
-}
-.footer-text {
-    color: #F4F4FD;
-}
