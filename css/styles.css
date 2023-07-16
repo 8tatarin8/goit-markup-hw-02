@@ -120,7 +120,7 @@ img {
 }
 
 .header-logo-link {
-    color: var(--color-studio-header);
+    color: 2E2F42;
 }
 /*
 |==========================================|
@@ -181,7 +181,7 @@ address {
 }
 
 .header-logo-link {
-    color: var(--color-studio-footer);
+    color: #f4f4fd;
 }
 
 .footer-text {
@@ -196,6 +196,7 @@ address {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: var(--title-h-cl);
 }
 /*загальний клас для заголовків H2,H3 INDEX/PORTFOLIO*/
@@ -342,8 +343,10 @@ address {
 |-------------|SECTION OUR TEAM|-----------|
 |==========================================|
 */
-.section-team {}
-
+.section-team {
+    background-color: #F4F4FD;
+}
+ 
 .section-team-first-title {}
 
 .section-team-list {}
