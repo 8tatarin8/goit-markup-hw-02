@@ -139,7 +139,7 @@ img {
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
 .header-contacts-item :focus {
-    color: #404BBF;
+    color: var(--header-a-active-cl);
 }
 
 /*
@@ -163,7 +163,6 @@ img {
 .section-hero-button-servise:focus {
     background-color: #404BBF;
     color: #FFFFFF;
-    border-radius: 4px;
 }
 
 /*---------------PORTFOLIO---------------*/
@@ -179,7 +178,6 @@ img {
     background-color: #F4F4FD;
     color: #4D5AE5;
     border: 1px solid #E7E9FC;
-    border-radius: 4px;
 }
 /*BUTTON/ACTIVE/PORTFOLIO*/
 .filter-button:hover,
@@ -222,7 +220,7 @@ img {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-web);
@@ -244,17 +242,26 @@ img {
     font-weight: 500;
 }
 
-.header-menu-link {}
+.header-menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--header-navigation-a-norm-cl)
+}
+
 
 .hdr-text-color {
-    color: #2E2F42;
+    color: var(--header-adress-a-norm-cl);
 }
 /*
 |==========================================|
 |HEADER/ADRESS|
 |==========================================|
 */
-
+address {
+    font-style: normal;
+}
 .header-page-adress {}
 
 .header-contacts {}
