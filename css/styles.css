@@ -224,6 +224,7 @@ address {
 */
 /*---------------INDEX---------------*/
 .section-hero-button-servise {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -242,6 +243,7 @@ address {
 
 /*---------------PORTFOLIO---------------*/
 .menu-btn-item {
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
