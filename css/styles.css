@@ -242,10 +242,12 @@ address {
 }
 
 /*---------------PORTFOLIO---------------*/
+.menu-btn {}
+
 .menu-btn-item {
     
 }
-.filter-button {
+.menu-button {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -257,22 +259,12 @@ address {
     border: 1px solid #E7E9FC;
 }
 /*BUTTON/ACTIVE/PORTFOLIO*/
-.filter-button:hover,
-.filter-button:focus {
+.menu-button:hover,
+.menu-button:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
-.menu-btn {}
 
-.menu-btn-all {}
-
-.menu-btn-web {}
-
-.menu-btn-app {}
-
-.menu-btn-design {}
-
-.menu-btn-marketing {}
 /*
 |========================================|
 |===========BUTTONS STYLES:END===========|
