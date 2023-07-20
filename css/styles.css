@@ -39,9 +39,11 @@ ol {
     margin-bottom: 0;
     padding-left: 0;
 }
+/*--
 img {
     display: block;
 }
+*/
 /*
 |=========================================|
 |-|ЗАГАЛЬНІ СТИЛІ/STYLES INDEX/PORTFOLIO|-|
@@ -120,7 +122,7 @@ img {
 }
 
 .header-logo-link {
-    color: 2E2F42;
+    color: var(--color-studio-header);
 }
 /*
 |==========================================|
@@ -140,12 +142,12 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-navigation-a-norm-cl)
+    color: var(--title-h-cl);
 }
 
 
 .hdr-text-color {
-    color: var(--header-adress-a-norm-cl);
+    color: var(--title-h-cl);
 }
 
 /*
@@ -159,13 +161,11 @@ address {
 
 .header-page-adress {}
 
-.header-contacts {}
+.list-contacts {}
 
 .header-contacts-item {}
 
-.header-contact-mail {}
-
-.header-contact-tel {}
+.header-contact {}
 
 /*
 |==========================================|
@@ -180,8 +180,8 @@ address {
     color: var(--color-web);
 }
 
-.header-logo-link {
-    color: #f4f4fd;
+.footer-logo-link {
+    color: var(--color-studio-footer) ;
 }
 
 .footer-text {
@@ -216,7 +216,10 @@ address {
 .header-contacts-item :focus {
     color: var(--header-a-active-cl);
 }
-
+.header-menu-link :hover,
+.header-logo-link :focus {
+    color: var(--section-hero-btn-active-bg);
+}
 /*
 |========================================|
 |BUTTONS STYLES/ЗАГАЛЬНІ СТИЛІ ДЛЯ КНОПОК|
