@@ -142,7 +142,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--title-h-cl);
+    color: var(--header-navigation-a-norm-cl);
 }
 
 .hdr-text-color {
@@ -219,7 +219,7 @@ address {
 }
 .header-menu-link :hover,
 .header-logo-link :focus {
-    color: var(--section-hero-btn-active-bg);
+    color: var(--header-a-active-cl);
 }
 /*
 |========================================|
