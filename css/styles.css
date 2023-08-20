@@ -145,9 +145,8 @@ img {
     color: var(--title-h-cl);
 }
 
-
 .hdr-text-color {
-    color: var(--title-h-cl);
+    color: var(--header-adress-a-norm-cl);
 }
 
 /*
@@ -247,34 +246,7 @@ address {
 }
 
 /*---------------PORTFOLIO---------------*/
-.menu-btn {}
 
-.menu-btn-item {
-    
-}
-.menu-button {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #F4F4FD;
-    color: #4D5AE5;
-    border: 1px solid #E7E9FC;
-}
-/*BUTTON/ACTIVE/PORTFOLIO*/
-.menu-button:hover,
-.menu-button:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
-}
-
-/*
-|========================================|
-|===========BUTTONS STYLES:END===========|
-|========================================|
-*/
 /*
 |=======================================|
 |----------ЗАГАЛЬНІ СТИЛІ:END-----------|
