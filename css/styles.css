@@ -211,7 +211,7 @@ address {
 
 /*інтерактивні посилання в спокійному стані*/
 .header-contacts-item {
-    color: var(--header-adress-a-norm-cl);
+    color: #434455;
 }
 
 /*інтерактивні посилання в активному стані*/
