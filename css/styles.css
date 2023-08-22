@@ -213,15 +213,14 @@ address {
 .header-contacts-item {
     color: #434455;
 }
-
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
 .header-contacts-item :focus {
     color: var(--header-a-active-cl);
 }
-.header-menu-link :hover,
-.header-logo-link :focus {
-    color: var(--header-navigation-a-norm-cl);
+.header-menu-item :hover,
+.header-menu-item :focus {
+    color: var(--header-a-active-cl);
 }
 /*
 |========================================|
