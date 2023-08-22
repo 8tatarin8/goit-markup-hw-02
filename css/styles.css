@@ -210,7 +210,9 @@ address {
 }
 
 /*інтерактивні посилання в спокійному стані*/
-.header-contacts-item {}
+.header-contacts-item {
+    color: var(--header-adress-a-norm-cl);
+}
 
 /*інтерактивні посилання в активному стані*/
 .header-contacts-item :hover,
