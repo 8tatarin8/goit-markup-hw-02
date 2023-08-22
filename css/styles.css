@@ -165,7 +165,9 @@ address {
 
 .header-contacts-item {}
 
-.header-contact {}
+.header-contacts {
+    color: #434455;
+}
 
 /*
 |==========================================|
