@@ -147,7 +147,7 @@ img {
 }
 
 .hdr-text-color {
-    color: var(--header-adress-a-norm-cl);
+    color: #2e2f42;
 }
 
 /*
@@ -170,7 +170,6 @@ address {
 /*
 |==========================================|
 |FOOTER|
-<a href="" class="a-link link"></a>
 |==========================================|
 */
 .footer {
