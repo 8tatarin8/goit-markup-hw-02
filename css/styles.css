@@ -16,6 +16,15 @@
 8. прописав для секцій(padding-top/botton;margin-top/bottom)
 9. прописав розташування по властивостям для елементів в box
 Алгоритм пропису властивостей у флекс-бокс/elements:
+Основні властивості:
+
+display: flex; - робить Flex-conteiner( в середині якого всі дочірні елементи стануть флекс-елементами)
+flex-direction: - змінює напрямок головної осі
+jastify-content: - вирівнювання елементів по головній осі
+align-items: - вирівнювання елементів по допоміжній осі
+flex-wrap: - перенесення по головній осі
+column-gap: відступ між колонками
+row-gap: - відступ між рядками
 
 10. ПЕРЕВІРИТИ ЧИТАБЕЛЬНІСТЬ КОДУ
 */
@@ -35,6 +44,22 @@
 }
 button {
     cursor: pointer;
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
 }
 
 /*
