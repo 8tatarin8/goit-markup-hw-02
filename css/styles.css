@@ -15,7 +15,7 @@
 7. звернувся до *{backround-color/outline}
 8. прописав для секцій(padding-top/botton;margin-top/bottom)
 9. прописав розташування по властивостям для елементів в box
-Алгоритм пропису властивостей у Flex-box/elements:
+Алгоритм пропису властивостей у флекс-бокс/elements:
 
 10. ПЕРЕВІРИТИ ЧИТАБЕЛЬНІСТЬ КОДУ
 */
@@ -36,22 +36,7 @@
 button {
     cursor: pointer;
 }
-/*
-h1,h2,h3,h4,p {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-ul,
-ol {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-/*--
-img {
-    display: block;
-}
-*/
+
 /*
 |=========================================|
 |-|ЗАГАЛЬНІ СТИЛІ/STYLES INDEX/PORTFOLIO|-|
